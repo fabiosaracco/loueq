@@ -8,7 +8,7 @@ import numpy as np
 
 from numba import njit
 from numba.core import types
-from numba.typed import Dict
+from numba.typed import Dict, List
 
 int_array = types.int8[:]
 
